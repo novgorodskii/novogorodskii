@@ -773,6 +773,10 @@ a.btn-app:active{
   font-size: 24px;
   line-height: 40px;
 }
+.icon-telegram{
+  background-color: #2a3238;
+  border-radius: 100%;
+}
 @media (max-width: 1199.98px) {
   .footer p{
     font-size: 16px;
