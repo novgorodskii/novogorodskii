@@ -459,6 +459,32 @@ a.btn-app:active{
   margin-top: 75px;
 }
 
+.title-price-list{
+  margin: 100px 0 20px;
+}
+.wrapper-price-list i{
+  color: #f01620;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.wrapper-price-list .list-price{
+  padding: 20px;
+}
+.wrapper-price-list .list-price li{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.list-price li span{
+  text-transform: capitalize;
+}
+.list-price li + li{
+  margin-top: 20px;
+}
+.wrapper-price-list > p{
+  display: block;
+  padding-top: 20px;
+  font-size: 14px;
+}
 @media (max-width: 1199.98px){
   .bt-prev{
       left: -10px;
@@ -493,10 +519,30 @@ a.btn-app:active{
     font-size: 45px;
     right: 0;
   }
+  .wrapper-price-list .list-price li{
+    font-size: 16px;
+  }
+  .title-price-list{
+    margin: 40px 0 20px;
+  }
+  .about-us .about-park{
+    margin: 10px 0;
+  }
 }
 @media (max-width: 467.98px) {
   .about-us .title-about-us{
     font-size: 24px;
+  }
+  .wrapper-price-list .list-price li{
+    font-size: 14px;
+  }
+  .wrapper-price-list .list-price{
+    padding: 2px;
+  }
+  .wrapper-price-list i{
+    color: #f01620;
+    font-size: 20px;
+    margin-right: 5px;
   }
 }
 
