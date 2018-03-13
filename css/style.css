@@ -485,6 +485,14 @@ a.btn-app:active{
   padding-top: 20px;
   font-size: 14px;
 }
+
+.super-price{
+  color: #f01620;
+}
+.super-price span{
+  text-decoration: underline;
+}
+
 @media (max-width: 1199.98px){
   .bt-prev{
       left: -10px;

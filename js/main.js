@@ -54,4 +54,5 @@ jQuery(document).ready(function(){
     return false;
   }
   
+  $('a[data-target^="anchor"]').on('click', function () { $('.navbar-collapse').collapse('hide'); $a = $($(this).attr('href')); return false; });
   
