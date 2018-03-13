@@ -1,13 +1,16 @@
 /* default classes */
 
 .thin-text{
-  font-family: 'MullerThin';
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
 }
 .default-text{
-  font-family: 'MullerLight';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 .text-bold{
-  font-family: 'MullerBold';
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 .text-white{
   color: #fff;

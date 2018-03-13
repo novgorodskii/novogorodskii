@@ -1,15 +1,3 @@
-@font-face {
-	font-family: 'MullerBold';
-    src: url('../fonts/Fontfabric - MullerBold.otf');
-}
-@font-face {
-    font-family: 'MullerLight';
-    src: url('../fonts/Fontfabric - MullerRegular.otf');
-}
-@font-face {
-    font-family: 'MullerThin';
-    src: url('../fonts/Fontfabric - MullerRegular.otf');
-}
 
 *{
     -webkit-box-sizing: border-box;
