@@ -199,6 +199,9 @@ a.btn-app:active{
   .banner .inner{
     min-height: 250px;
   }
+  .banner .title-zvezda{
+    font-size: 32px;
+  }
 }
 @media (max-width: 467.98px) {
   .inner-content .wrapper-inner-content{
