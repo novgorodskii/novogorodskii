@@ -148,7 +148,7 @@ a.btn-app:focus,
 a.btn-app:active{
   display: inline-block;
   -webkit-box-shadow: 0 7px 50px rgb(0, 0, 0);
-  box-shadow: 0 7px 50px rgb(0, 0, 0);
+  box-shadow: 0 1px 24px rgb(0, 0, 0);
   background-color: darkred;
 }
 .btn-app + .btn-app{
@@ -197,7 +197,7 @@ a.btn-app:active{
     padding: 10px 5px 20px 0;
   }
   .banner .inner{
-    min-height: 250px;
+    min-height: 300px;
   }
   .banner .title-zvezda{
     font-size: 32px;
@@ -457,6 +457,7 @@ a.btn-app:active{
     color: #2a3238 !important;
     top: 75px;
     cursor: pointer;
+    z-index: 11;
 }
 .bt-prev{
     left: -60px;
