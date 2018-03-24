@@ -30,7 +30,7 @@
   -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 20px rgba(0, 0, 0, .2);
   background-color: #fff;
-  border-bottom: 1px solid #f01620;
+  /* border-bottom: 1px solid #f01620; */
   overflow: hidden;
 }
 .header .header-numberphone span{
