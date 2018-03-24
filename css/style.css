@@ -57,8 +57,9 @@
 }
 
 .header .navbar-nav a:hover{
-  border-bottom: 4px solid #f01620;
-  margin-bottom: -4px;
+  border-bottom: 3px solid #f01620;
+  margin-bottom: -3px;
+  transition: all .3s linear;
 }
 .navbar-light .navbar-nav .nav-link{
   color: #2a3238;
