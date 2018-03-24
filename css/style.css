@@ -53,7 +53,7 @@
 }
 .header .nav-item{
   font-size: 16px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 .header .navbar-nav a:hover{
@@ -88,12 +88,13 @@
 
 .banner{
   padding-top: 86px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .2);  
 }
 .banner .inner{
   background: url('../img/inner-1.jpg') no-repeat center / cover;
   min-height: 620px;
 }
-.banner .inner .container {
+.banner .inner .containers{
   padding: 80px 65px 200px 0;
 }
 .banner .inner .inner-content{
@@ -193,9 +194,6 @@ a.btn-app:active{
   .inner-content .wrapper-inner-content, .banner .inner .inner-content .title-inner, .banner .inner .inner-content .application{
     padding: 10px;
   }
-  .banner .inner .container{
-    padding: 10px 5px 20px 0;
-  }
   .banner .inner{
     min-height: 300px;
   }
@@ -209,6 +207,12 @@ a.btn-app:active{
   }
   .banner .inner .inner-content h1{
     font-size: 24px;
+  }
+  .banner .inner .inner-content .title-inner p{
+    display: none;
+  }
+  .banner .inner{
+    min-height: 220px;
   }
 }
 /* banner end */
@@ -263,6 +267,9 @@ a.btn-app:active{
   .title-project h2{
     font-size: 22px;
   }
+  .about-project{
+    display: none;
+  }
 }
 
 /* about-project end */
@@ -308,6 +315,26 @@ a.btn-app:active{
   .features .inner-content{
     padding: 10px 0 5px;
     max-width: 90%;
+  }
+  .features .inner{
+    background: url('../img/inner-m.jpg') no-repeat center / cover;
+  }
+  .features .inner-content{
+    background-color: #f01620;
+    opacity: .9;
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    /* color: #2a3238 !important; */
+    text-align: center;
+  }
+  .features .inner-content ul{
+    text-align: left;
+  }
+  .features p,
+  .features br{
+    display: none;
   }
 }
 /* features end */
@@ -420,6 +447,9 @@ a.btn-app:active{
   }
   .odds .name-star span{
     font-size: 30px;
+  }
+  .title-odds h2{
+    font-size: 24px;
   }
 }
 
@@ -563,6 +593,9 @@ a.btn-app:active{
     font-size: 20px;
     margin-right: 5px;
   }
+  .about-us .about-park{
+    display: none;
+  }
 }
 
 /* about us end */
@@ -690,6 +723,9 @@ a.btn-app:active{
     padding: 20px 0;
     font-size: 18px;
   }
+  .link-app p + p{
+    display: none;
+  }
 }
 /* app-zvezdacar end */
 
@@ -704,6 +740,7 @@ a.btn-app:active{
   left: 43%;
   top: 38%;
   max-width: 70px;
+  display: none;
 }
 .map iframe {
   width: 100%;
@@ -742,8 +779,8 @@ a.btn-app:active{
 .footer-bottom .social-nav-item{
   background: #fff;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 43px;
+  height: 43px;
   -webkit-border-radius: 100%;
   border-radius: 100%;
   text-align: center;
@@ -774,6 +811,14 @@ a.btn-app:active{
     font-size: 16px;
     display: block;
     margin-top: 5px;
+  }
+}
+@media (max-width: 575.98px) {
+  .text-footer{
+    display: none;
+  }
+  .footer{
+    padding-bottom: 70px;
   }
 }
 
