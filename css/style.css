@@ -579,11 +579,15 @@ a.btn-app:active{
   }
 }
 @media (max-width: 467.98px) {
+  .about-us{
+    padding: 25px 0;
+  }
   .about-us .title-about-us{
     font-size: 24px;
   }
   .wrapper-price-list .list-price li{
     font-size: 14px;
+    font-weight: bold;
   }
   .wrapper-price-list .list-price{
     padding: 2px;
