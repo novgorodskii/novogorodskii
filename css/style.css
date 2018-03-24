@@ -320,7 +320,7 @@ a.btn-app:active{
     background: url('../img/inner-m.jpg') no-repeat center / cover;
   }
   .features .inner-content{
-    background-color: #f01620;
+    background-color: #483f3f;
     opacity: .9;
     padding: 10px;
     max-width: 100%;
